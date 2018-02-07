@@ -39,16 +39,15 @@
 
 // }
 
-
-const hr = "Hondūras";
-const dm = "Dominykos respublika";
-const nb = "Namibija";
-const plotas_hr = 112492;
-const plotas_dm = 48315;
-const plotas_nb = 825615;
-const gyventojai_hr = 9112867;
-const gyventojai_dm = 10800857;
-const gyventojai_nb = 2113077;
+const hr = "Hondūras",
+dm = "Dominikos respublika",
+nb = "Namibija",
+plotas_hr = 112492,
+plotas_dm = 48315,
+plotas_nb = 825615,
+gyventojai_hr = 9112867,
+gyventojai_dm = 10800857,
+gyventojai_nb = 2113077;
 
 function writeSalis (a, b, c) {
     document.write(`Šalis: <b>${a}</b>, joje gyvena <b>${(b/1000000).toFixed(2)}</b> mln. gyventojų. Jos plotas yra <b>${c}</b> km<sup>2</sup><br>Vienam žmogui tenkantis plotas yra <b>${(c*1000000/b).toFixed(1)}</b> m<sup>2</sup><br><br>`);
